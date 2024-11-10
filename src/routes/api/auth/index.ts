@@ -51,7 +51,6 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
             }
 
             await request.session.save()
-
             return { success: true }
           }
         }
